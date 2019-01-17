@@ -1,0 +1,235 @@
+@font-face {
+   font-family: contm;
+   src: url(font/contm.ttf);
+}
+
+*{
+  margin: 0;
+  font-family: contm;
+  	letter-spacing: 1px;
+}
+
+body{
+  background-color: #F6F8F9;
+
+}
+
+#header{
+  height: auto;
+  background-color:black ;
+  text-align: center;
+}
+
+
+a.kontakt{
+  float: left;
+  text-decoration: none;
+  color:grey ;
+  margin-left: 20px;
+  font-size:small;
+}
+
+
+
+.logon{
+  width: 300px;
+  height: 100px;
+}
+
+
+#meny{
+  width: 100%;
+  height: 45px;
+  color: #AEAEAE;
+  background-color: black;
+  border-bottom: solid #F5B041 2px;
+  position: sticky;
+  top: 0;
+
+}
+
+#meny-left{
+  line-height: 50px; /*padding ska tas bort från meny .lägg line-height i anda undersidor*/
+  width: 64%;
+  height: 45px;
+  text-align: right;
+  background-color: black;
+  float: left;
+
+
+}
+
+#meny-right{
+  float: right;
+  width: 36%;
+  height: 45px;
+  background-color:black;
+  text-align: right;
+}
+
+
+
+a.nav{
+  text-decoration: none;
+  color: white;
+  margin:0 30px 0 30px;
+}
+
+.nav:hover{
+  border-radius: 2px solid  #F5B041;
+}
+a:hover{
+  color: #F5B041;
+}
+
+a.kampanjer{
+    color: #F5B041;
+    text-decoration: none;
+    margin:0 30px 0 30px;
+}
+
+
+.serch{
+  background-color: black;
+  border: solid black;
+  border-left:1px solid #F5B041;
+
+  border-bottom:1px solid #F5B041;
+}
+
+.btn-search{
+  border:1px solid #F5B041;
+  background-color: black;
+  color: white;
+}
+
+
+.shoping-bag{
+  width: 50px;
+  height: 40px;
+}
+a.link-shoping-bag{
+    margin:  0 30px 0 30px;
+}
+
+
+
+/* all body*/
+a.alternativ{
+  text-decoration: none;
+}
+
+#all-body{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+
+#left, #cont {
+  height: 1000px ;
+  background-color:white;
+}
+
+#left{
+  width: 15%;
+  border-right: 2px solid #F5B041;
+  float: left;
+}
+
+
+.slide{
+width: 1030px;
+height: 300px;
+  float: left;
+}
+
+/*alla produkter */
+.img-produkt{
+  width: 303px;
+  height: 300px;
+}
+#produkter:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+
+}
+
+#produkter{
+  float: left;
+  width:25%;
+ background-color:#F6F8F9 ;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin:25px 18px 25px 18px;
+}
+ div.namn-p{
+   text-align: center;
+  padding: 10px 20px;
+ }
+
+ a.link-namn-p{
+   text-decoration: none;
+   color: black;
+ }
+
+a.link-namn-p:hover{
+  color: #F5B041;
+}
+
+
+
+
+
+a.add-to-cart {
+	width: 100px;
+	height: 30px;
+	background:#F5B041;
+	font-size: 12px;
+	line-height: 30px;
+	letter-spacing: 1px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	border-radius: 24px;
+	text-decoration: none;
+	text-align: center;
+  float: right;
+  margin-bottom: 10px;
+}
+
+a.add-to-cart:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+
+
+h3{
+  text-align: center;
+  border-bottom: 2px solid #F5B041;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+
+li a {
+  display: block;
+  color: black;
+  margin: 15px 10px 0 10px;
+  border-bottom: 1px solid #F5B041;
+}
+
+
+#ffooter{
+  width: 100;
+  height: 200px;
+  background-color:black;
+  border-top: solid #F5B041 2px;
+  text-align: center;
+  line-height: 300px;
+
+}

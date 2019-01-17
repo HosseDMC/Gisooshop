@@ -1,0 +1,97 @@
+<!Doctype html>
+<html>
+
+
+<head>
+    <title> Gisoo Shop </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Kampanjer.css">
+    <link rel="icon" href="favicon1.png" sizes="32x32" type="image/png">
+
+</head>
+
+
+<body>
+<!-- my header -->
+  <div id="header">
+    <a href="index.html"><img class="logon"src="Logoguld1.png"></a>
+  </div>
+
+<!--min meny -->
+<div id="meny">
+  <div id="meny-left">
+    <a class="kontakt" href="kontakt.html"><img class="inbox" src="inbox.png"> KONTAKT</a>
+    <a class="nav" href="index.html">HEM</a>
+    <a class="nav" href="Dam.html">DAM</a>
+    <a class="nav" href="Herr.html">HERR</a>
+    <a class="kampanjer" href="Kampanjer.html">KAMPANJER</a>
+  </div>
+  <div id="meny-right">
+
+    <input class="serch" type="text" placeholder=" Search..">
+    <button class="btn-search" type="submit"><i class="search"></i>SÖK</button>
+    <a class="link-shoping-bag" href="kundvagn-index.html"><img class="shoping-bag" src="shoping-bag.png"></a>
+
+  </div>
+</div>
+<!--content -->
+<div id="all-body">
+  <div id="left">
+    <h3> KAMPANJER </h3>
+    <ul>
+      <li><a class="alternativ" href="#">KLÄNNINGAR</a></li>
+      <li><a class="alternativ" href="#">SKJORTOR</a></li>
+      <li><a class="alternativ" href="#">T-SHIRTS</a></li>
+      <li><a class="alternativ" href="#">TRÖJOR</a></li>
+      <li><a class="alternativ" href="#">JACKOR</a></li>
+      <li><a class="alternativ" href="#">BYXOR</a></li>
+      <li><a class="alternativ" href="#">JEANS</a></li>
+      <li><a class="alternativ" href="#">SKOR</a></li>
+      <li><a class="alternativ" href="#">UNER KLÄDER</a></li>
+  </ul>
+
+  </div>
+
+  <div id="cont">
+    <img class="slide"src="herr-bild/rsz_kostym0.jpg">
+    <img class="slide" src="dam-bild/klänning1.jpg">
+    <img class="slide" src="herr-bild/rsz_kostym1.jpg">
+    <img class="slide" src="herr-bild/rsz_kostym2.jpg">
+
+        <div id="produkter">
+          <a class="link-produkt" href="#"><img class="img-produkt" src="produkter/p.jpg"></a>
+            <div class="namn-p">
+              <p>Vinterjacka <br><br> 949:- SEK <a href="kundvagn-index.html" class="add-to-cart">add to cart</a></p>
+            </div>
+        </div>
+
+  </div>
+</div>
+
+  <script>
+  var myIndex = 0;
+  carousel();
+
+  function carousel() {
+      var i;
+      var x = document.getElementsByClassName("slide");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000); // Change image every 2 seconds
+  }
+  </script>
+
+
+<div id="ffooter">
+    <img class="logon"src="Logoguld1.png">
+</id>
+
+
+
+
+</body>
+</html>
