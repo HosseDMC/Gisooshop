@@ -142,7 +142,7 @@ a.alternativ{
 
 /*alla produkter */
 .img-produkt{
-  width: 303px;
+  width: 100%;
   height: 300px;
 }
 #produkter:hover{
