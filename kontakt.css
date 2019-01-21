@@ -85,7 +85,7 @@ a:hover{
 a.kontakt{
 color: #F5B041;
 text-decoration: none;
-margin:0 30px 0 30px;  
+margin:0 30px 0 30px;
 }
 
 .serch{
@@ -111,8 +111,21 @@ a.link-shoping-bag{
     margin:  0 30px 0 30px;
 }
 
+
+
 body{
   text-align: center;
+}
+#all-body{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+}
+
+#cont {
+  height: 2000px ;
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
