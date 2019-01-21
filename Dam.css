@@ -134,8 +134,6 @@ a.alternativ{
 
 
 .slide{
-  object-fit: none;
-  object-position: 50% 50%;
  width: auto;
  height: auto;
  float: left;
