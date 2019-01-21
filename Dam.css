@@ -178,10 +178,10 @@ a.link-namn-p:hover{
 
 a.add-to-cart {
 	width: 100px;
-	height: 30px;
+	height: 20px;/* ska ändras i andra undersidor(20px)*/
 	background:#F5B041;
 	font-size: 12px;
-	line-height: 30px;
+	line-height: 20px; /* ska ändras i andra undersidor(20px)*/
 	letter-spacing: 1px;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
