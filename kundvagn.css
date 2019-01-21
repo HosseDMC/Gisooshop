@@ -352,3 +352,15 @@ label {
     width: 40%;
   }
 }
+
+
+
+
+#ffooter{
+  width: 100;
+  height: 200px;
+  background-color:black;
+  border-top: solid #F5B041 2px;
+  text-align: center;
+  line-height: 300px;
+}
