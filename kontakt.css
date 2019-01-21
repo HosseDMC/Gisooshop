@@ -113,13 +113,12 @@ a.link-shoping-bag{
 
 
 
-body{
-  text-align: center;
-}
-#all-body{
+
+#allBody{
   width: 80%;
   margin-left: 10%;
   margin-top: 10px;
+  text-align: center;
 }
 
 #cont {
