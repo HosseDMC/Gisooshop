@@ -133,10 +133,11 @@ a.link-shoping-bag{
 
 
 /*alla produkter */
-.img-produkt{
+#myImg{
   width: 100%;
   height: 400px;
 }
+
 #produkter:hover{
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
