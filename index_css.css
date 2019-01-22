@@ -120,7 +120,7 @@ a.link-shoping-bag{
 }
 
 #cont {
-  height: 2000px ;
+  height: 1000px ;
   background-color:white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -133,6 +133,7 @@ a.link-shoping-bag{
 
 
 /*alla produkter */
+
 #myImg{
   width: 100%;
   height: 400px;
@@ -222,7 +223,6 @@ a.link-shoping-bag{
 
 
 
-
 #produkter:hover{
     -ms-transform: scale(1.1); /* IE 9 */
     -webkit-transform: scale(1.1); /* Safari 3-8 */
@@ -242,13 +242,15 @@ a.link-shoping-bag{
  }
 
 
- a.link-kampanjer{
-   text-decoration: none;
-   color: black;
- }
- a.link-kampanjer:hover{
-   color: #F5B041;
- }
+a.link-kampanjer{
+  text-decoration: none;
+  color: black;
+}
+a.link-kampanjer:hover{
+  color: #F5B041;
+}
+
+
 /* den del ska tas bort på alla undersidor!!
  a.link-namn-p{
    text-decoration: none;
