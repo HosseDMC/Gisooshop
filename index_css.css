@@ -154,6 +154,15 @@ a.link-shoping-bag{
    text-align: center;
    padding: 10px 20px;
  }
+
+
+ a.link-kampanjer{
+   text-decoration: none;
+   color: black;
+ }
+ a.link-kampanjer:hover{
+   color: #F5B041;
+ }
 /* den del ska tas bort på alla undersidor!!
  a.link-namn-p{
    text-decoration: none;
