@@ -232,14 +232,16 @@ label {
 .product .remove-product {
   border: 0;
   padding: 4px 8px;
-  background-color: #c66;
-  color: #fff;
+  background-color:#F5B041;
+  color: white;
   font-family: "HelveticaNeue-Medium", "Helvetica Neue Medium";
   font-size: 12px;
   border-radius: 3px;
 }
 .product .remove-product:hover {
-  background-color: #a44;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1)
 }
 
 /* Totals section */
@@ -269,14 +271,16 @@ label {
   border: 0;
   margin-top: 20px;
   padding: 6px 25px;
-  background-color: #6b6;
-  color: #fff;
+  background-color:#F5B041;
+  color:white;
   font-size: 25px;
   border-radius: 3px;
 }
 
 .checkout:hover {
-  background-color: #494;
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
 
 /* Make adjustments for tablet */
