@@ -191,12 +191,11 @@ a.add-to-cart {
 	background:#F5B041;
 	color:white;
 	text-transform: uppercase;
-  border:1px solid black;
 	border-radius: 5px;
 	text-decoration: none;
 	text-align: center;
   padding: 3px;
-  float: right;
+
 }
 
 a.add-to-cart:hover{
