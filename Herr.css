@@ -145,7 +145,7 @@ width: 75%;
 /*alla produkter */
 .img-produkt{
   width: 100%;
-  height: 300px;
+  height: 350px;
 }
 #produkter:hover{
     -ms-transform: scale(1.1); /* IE 9 */
