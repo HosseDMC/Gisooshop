@@ -145,10 +145,11 @@ a.link-shoping-bag{
 
 #produkter{
   float: left;
-  width:31%;
+  width:30%;
  background-color:#F6F8F9 ;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- margin:40px 1% 25px 1%;
+ margin-top: 40px;
+ margin-left: 2.5%;
 }
  div.namn-p{
    text-align: center;
