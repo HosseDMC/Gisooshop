@@ -177,27 +177,29 @@ a.link-namn-p:hover{
 
 
 
+select{
+  border: 1px solid #F5B041;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}
+
 
 a.add-to-cart {
-	width: 100px;
-	height: 20px;
 	background:#F5B041;
-	font-size: 12px;
-	line-height: 20px;
-	letter-spacing: 1px;
-	color: rgb(255, 255, 255);
+	color:white;
 	text-transform: uppercase;
-	border-radius: 24px;
+  border:1px solid black;
+	border-radius: 5px;
 	text-decoration: none;
 	text-align: center;
+  padding: 3px;
   float: right;
-  margin-bottom: 10px;
 }
 
 a.add-to-cart:hover{
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1);
+
+  background-color:#d19940;
 }
 
 
